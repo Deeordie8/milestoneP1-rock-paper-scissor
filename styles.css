@@ -37,11 +37,11 @@ header {
 
 
 #both-scores {
-overflow: hidden;
-display: flex;
-justify-content: space-between;
-width: 100%;
-justify-content: end;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: end;
 }
 
 .score-board-score{
