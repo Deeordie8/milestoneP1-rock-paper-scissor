@@ -1,0 +1,109 @@
+:root {
+    background-color: #89C15E;
+{
+
+header {
+    width: 50%;
+    height: 15vh;
+    top: 5vh;
+    left: 24vw;
+    gap: 0px;
+    border-radius: 13px;
+    opacity: 0px;
+    display: flex;
+    padding: 1em;
+    align-self: flex-start;
+    border: 2px solid #fff;
+    position: absolute
+}
+
+.header-score-board {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#text.score-board p {
+    font-family: Roboto, sans-serif;
+    font-size: 4.5vh;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 0;
+    color: #FFF;
+}
+
+
+#both-scores {
+overflow: hidden;
+display: flex;
+justify-content: space-between;
+width: 100%;
+justify-content: end;
+}
+
+.score-board-score{
+    display: inline-block;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 13px;
+
+    width: 10vw;
+    padding: 0%;
+    margin-left: 1em;
+}
+.score-board-text {
+    margin-bottom: 0.1rem;
+    margin-top: .35rem;
+    text-align: center;
+    color: #656565;
+    font-family: Roboto, sans-serif;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1em;
+
+}
+.score-board-value {
+
+    margin: 0;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    /* border: 2px solid teal; */
+}
+
+.line11 {
+    width: 133px;
+    height: 0px;
+    top: 393px;
+    left: 582px;
+    gap: 0px;
+    border: 15px 0px 0px 0px;
+    opacity: 0px;
+    border: 15px solid #000000A3
+}
+    
+    .my-line {
+    border-top: 2px solid #000; /* 2px black solid line */
+    width: 100px; /* Width of the line */
+    height: 0px; /* Height of the line (set to 0 for a single line) */
+    position: absolute; /* Allows positioning with top and left */
+    top: 10px; /* Position 10px from the top */
+    left: 20px; /* Position 20px from the left */
+    }
+
+    .my-line {
+    border-top: 2px solid #000; /* 2px black solid line */
+    width: 100px; /* Width of the line */
+    height: 0px; /* Height of the line (set to 0 for a single line) */
+    position: absolute; /* Allows positioning with top and left */
+    top: 10px; /* Position 10px from the top */
+    left: 20px; /* Position 20px from the left */
+    }
